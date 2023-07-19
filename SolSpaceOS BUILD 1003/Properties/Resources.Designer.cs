@@ -63,9 +63,9 @@ namespace SolSpaceOS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Boton_Azul_removebg_preview {
+        internal static System.Drawing.Bitmap AlSoftP_logo {
             get {
-                object obj = ResourceManager.GetObject("Boton_Azul-removebg-preview", resourceCulture);
+                object obj = ResourceManager.GetObject("AlSoftP_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace SolSpaceOS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Button_Desing_Color_Orange {
+        internal static System.Drawing.Bitmap mainluweb {
             get {
-                object obj = ResourceManager.GetObject("Button_Desing_Color_Orange", resourceCulture);
+                object obj = ResourceManager.GetObject("mainluweb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,29 +83,9 @@ namespace SolSpaceOS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ico_bolsa_removebg_preview {
+        internal static System.Drawing.Bitmap papelera {
             get {
-                object obj = ResourceManager.GetObject("ico_bolsa-removebg-preview", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap orange_icon_removebg_preview {
-            get {
-                object obj = ResourceManager.GetObject("orange-icon-removebg-preview", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Papelera {
-            get {
-                object obj = ResourceManager.GetObject("Papelera", resourceCulture);
+                object obj = ResourceManager.GetObject("papelera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -135,6 +115,26 @@ namespace SolSpaceOS.Properties {
         internal static System.IO.UnmanagedMemoryStream Startup {
             get {
                 return ResourceManager.GetStream("Startup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tienda {
+            get {
+                object obj = ResourceManager.GetObject("tienda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap update {
+            get {
+                object obj = ResourceManager.GetObject("update", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

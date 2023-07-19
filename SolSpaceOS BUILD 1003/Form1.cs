@@ -25,7 +25,7 @@ namespace SolSpaceOS
         private void timer1_Tick(object sender, EventArgs e)
         {
             progressBar1.Value = 100;
-            Escritorio escri = new Escritorio();
+            Act escri = new Act();
             if (progressBar1.Value == 100) {
                 escri.ShowDialog();
                 this.Close();
